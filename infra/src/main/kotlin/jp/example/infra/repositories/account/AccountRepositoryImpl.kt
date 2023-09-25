@@ -3,9 +3,7 @@ package jp.example.infra.repositories.account
 import jp.example.domain.entities.account.Account
 import jp.example.domain.repositories.account.AccountRepository
 import jp.example.infra.entities.account.AccountRecord
-import jp.example.infra.mappers.account.AccountMapper
 import org.jetbrains.exposed.sql.transactions.transaction
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 import java.util.*
 
