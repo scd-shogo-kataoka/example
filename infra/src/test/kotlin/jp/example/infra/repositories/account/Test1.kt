@@ -17,6 +17,7 @@ open class Test1(
     fun test_select() {
         val accounts = repository.selectAll()
         println("accounts: ${accounts.size}")
+        assert(accounts.size == 1) // flyway
     }
 
     @Test

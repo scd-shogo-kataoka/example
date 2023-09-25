@@ -18,6 +18,7 @@ open class Test2(
         repository.save(Account.create(AccountCreateParams("email", "password", "name")))
         val accounts = repository.selectAll()
         println("accounts: ${accounts.size}")
+        assert(accounts.size == 2) // flyway + repository.save
     }
 
     @Test
