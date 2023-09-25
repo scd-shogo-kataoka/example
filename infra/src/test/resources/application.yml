@@ -1,0 +1,9 @@
+spring:
+  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: example
+    password: example
+    url: jdbc:tc:mysql:8.0:///example
+  test:
+    database:
+      replace: none
